@@ -7,7 +7,7 @@ class cuenta_bancaria:
         self.apellido = apellido
         self.saldo = saldo
         self.cuenta_corriente = cuenta_corriente
-
+#Metodo de deposito
 #   Metodo para realizar el deposito
     def deposito(self, cantidad):
         self.saldo += cantidad
